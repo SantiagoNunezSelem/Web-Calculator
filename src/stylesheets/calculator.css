@@ -7,8 +7,10 @@
 
 .screen { 
     min-height: 50px;
+    max-height: 88px;
     max-width: 410px;
-    overflow-x: hidden;
+    overflow-wrap: break-word;
+    overflow:hidden;
     font-size:27px;
     color:azure;
     padding-bottom: 10px;
@@ -17,6 +19,7 @@
 @media (max-width:450px){
     .screen {
         max-width: 245px;
+        max-height: 120px;
     }
 }
 
