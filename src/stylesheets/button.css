@@ -1,0 +1,14 @@
+.ButtonCalc {
+    min-width: 100px;
+    min-height: 75px;
+    font-size: 25px;
+    margin:3px;
+}
+
+@media (max-width:450px){
+    .ButtonCalc{
+        min-width: 60px;
+        min-height: 40px;
+        font-size:15px;
+    }
+}

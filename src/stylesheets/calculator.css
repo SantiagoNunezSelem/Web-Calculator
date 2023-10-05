@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.screen { 
+    min-height: 50px;
+    max-width: 410px;
+    overflow-x: hidden;
+    font-size:27px;
+    color:azure;
+    padding-bottom: 10px;
+}
+
+@media (max-width:450px){
+    .screen {
+        max-width: 245px;
+    }
+}
+
+
+
+
+
+
+    
